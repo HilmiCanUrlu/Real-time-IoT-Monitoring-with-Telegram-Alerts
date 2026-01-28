@@ -14,6 +14,7 @@
 <a href="https://www.linkedin.com/in/hilmi-can-%C3%BCrl%C3%BC-307ba630a/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
+
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=HilmiCanUrlu.Real-time-IoT-Monitoring-with-Telegram-Alerts" />
 
 ---
@@ -26,78 +27,71 @@
 
 ### 📌 Overview
 
-This project presents a **real-time IoT monitoring system** based on the **ESP32 microcontroller**, designed to collect, transmit, and visualize environmental sensor data using the **MQTT protocol**.
+**Real-time IoT Monitoring with Telegram Alerts** is an end-to-end IoT project developed using an **ESP32 microcontroller**.  
+The system collects environmental data (temperature, humidity, and light), transmits it via **MQTT**, visualizes it on a **web dashboard**, and sends **instant Telegram alerts** when predefined threshold values are exceeded.
 
-Environmental parameters such as **temperature, humidity, and light intensity** are monitored continuously and displayed via a **web-based dashboard**.  
-When predefined threshold values are exceeded, the system sends **instant alerts via a Telegram bot**, including location information.
-
-The project was developed as an **individual academic project** at  
-**Mehmet Akif Ersoy University – Department of Information Systems and Technologies**.
+This project demonstrates the integration of embedded systems, web technologies, and cloud-based messaging platforms.
 
 ---
 
-### 📊 System Architecture
+## 🖼️ System Screenshots
 
-- ESP32 reads sensor data in real time  
-- Data is published to a **cloud-based MQTT broker (HiveMQ)**  
-- Web dashboard subscribes to MQTT topics  
-- Telegram Bot API sends alert notifications  
-- Web interface enables remote hardware control  
+### 🔹 Web Dashboard
+Real-time sensor monitoring and device control interface.
+
+![Web Dashboard](assets/web-dashboard.png)
 
 ---
 
-### ⚙️ Hardware Components
+### 🔹 Telegram Alert System
+Automatic Telegram notifications with critical alerts.
 
+![Telegram Alert](assets/telegram-alert.png)
+
+---
+
+### 🔹 Hardware Setup
+ESP32 and sensor connections.
+
+![Hardware Setup](assets/hardware-setup.png)
+
+---
+
+## ⚙️ System Features
+
+- Real-time environmental data acquisition  
+- MQTT-based data transmission (HiveMQ Cloud)  
+- Responsive web-based dashboard  
+- Telegram bot integration for instant alerts  
+- Remote device control via web interface  
+
+---
+
+## 🛠️ Technologies Used
+
+### Hardware
 - ESP32 Microcontroller  
 - SHT31 Temperature & Humidity Sensor  
 - NTC Thermistor  
 - LDR (Light Dependent Resistor)  
 
----
-
-### 🌐 Communication Technologies
-
+### Software & Communication
+- Arduino (C++)  
 - MQTT (HiveMQ Cloud)  
 - HTTP Web Server  
 - Telegram Bot API  
+- HTML, CSS, JavaScript  
 
 ---
 
-### 🧠 Software Technologies
-
-- C++ (Arduino Core for ESP32)  
-- HTML5  
-- CSS3  
-- JavaScript  
-
----
-
-### 🤖 Core Features
-
-- Real-time sensor monitoring  
-- Web-based dashboard visualization  
-- Telegram alert notifications  
-- Remote hardware control  
-
----
-
-### ⚠️ Limitations
-
-- Network dependency for MQTT communication  
-- Internet connection required  
-- Advanced security mechanisms not fully implemented  
-
----
-
-### 👤 Project Author
+## 👤 Project Author
 
 - **Hilmi Can Ürlü**
 
 ---
 
-### 📧 Contact
+## 📧 Contact
 
-Hilmi Can Ürlü  
 Email:  
 Website:  
 
@@ -113,79 +107,71 @@ Website:
 
 ### 📌 Genel Bakış
 
-Bu proje, **ESP32 mikrodenetleyicisi** tabanlı, **MQTT protokolü** kullanarak çevresel verileri toplayan, ileten ve görselleştiren **gerçek zamanlı bir IoT izleme sistemi** sunmaktadır.
+**Real-time IoT Monitoring with Telegram Alerts**, **ESP32 mikrodenetleyicisi** kullanılarak geliştirilen uçtan uca bir IoT projesidir.  
+Sistem; sıcaklık, nem ve ışık verilerini sensörlerden okuyarak **MQTT protokolü** ile iletir, bir **web arayüzü** üzerinden görselleştirir ve kritik eşik değerleri aşıldığında **Telegram üzerinden anlık uyarılar** gönderir.
 
-**Sıcaklık, nem ve ışık şiddeti** gibi çevresel parametreler sürekli olarak izlenmekte ve **web tabanlı bir kontrol paneli** üzerinden görüntülenmektedir.  
-Tanımlanan eşik değerlerin aşılması durumunda, sistem **Telegram botu** aracılığıyla kullanıcıya **anlık uyarılar** göndermektedir.
-
-Bu proje,  
-**Mehmet Akif Ersoy Üniversitesi – Bilişim Sistemleri ve Teknolojileri Bölümü**  
-kapsamında **bireysel akademik proje** olarak geliştirilmiştir.
+Bu proje, gömülü sistemler ile web ve bulut tabanlı haberleşme servislerinin entegrasyonunu göstermektedir.
 
 ---
 
-### 📊 Sistem Mimarisi
+## 🖼️ Sistem Görselleri
 
-- ESP32 sensör verilerini gerçek zamanlı olarak okur  
-- Veriler HiveMQ üzerinden MQTT ile yayınlanır  
-- Web arayüzü MQTT konularına abone olur  
-- Telegram Bot API ile alarm bildirimleri gönderilir  
-- Web arayüzü üzerinden donanım kontrolü sağlanır  
+### 🔹 Web Arayüzü
+Gerçek zamanlı sensör verilerinin izlendiği dashboard.
+
+![Web Arayüzü](assets/web-dashboard.png)
 
 ---
 
-### ⚙️ Donanım Bileşenleri
+### 🔹 Telegram Uyarıları
+Kritik durumlarda otomatik gönderilen Telegram bildirimleri.
 
+![Telegram Uyarısı](assets/telegram-alert.png)
+
+---
+
+### 🔹 Donanım Kurulumu
+ESP32 ve sensörlerin fiziksel bağlantıları.
+
+![Donanım Kurulumu](assets/hardware-setup.png)
+
+---
+
+## ⚙️ Sistem Özellikleri
+
+- Gerçek zamanlı çevresel veri takibi  
+- MQTT tabanlı haberleşme (HiveMQ Cloud)  
+- Web tabanlı kullanıcı arayüzü  
+- Telegram bot ile anlık alarm sistemi  
+- Web üzerinden uzaktan donanım kontrolü  
+
+---
+
+## 🛠️ Kullanılan Teknolojiler
+
+### Donanım
 - ESP32 Mikrodenetleyici  
-- SHT31 Sıcaklık / Nem Sensörü  
-- NTC Termistör  
-- LDR (Işık Sensörü)  
+- SHT31 Sıcaklık & Nem Sensörü  
+- NTC  
+- LDR  
 
----
-
-### 🌐 Haberleşme Teknolojileri
-
+### Yazılım & Haberleşme
+- Arduino (C++)  
 - MQTT (HiveMQ Cloud)  
-- HTTP Web Sunucusu  
+- HTTP Web Server  
 - Telegram Bot API  
+- HTML, CSS, JavaScript  
 
 ---
 
-### 🧠 Yazılım Teknolojileri
-
-- C++ (Arduino Core – ESP32)  
-- HTML5  
-- CSS3  
-- JavaScript  
-
----
-
-### 🤖 Temel Özellikler
-
-- Gerçek zamanlı veri izleme  
-- Web dashboard üzerinden görselleştirme  
-- Telegram uyarı sistemi  
-- Uzaktan donanım kontrolü  
-
----
-
-### ⚠️ Sınırlılıklar
-
-- MQTT için internet bağlantısı gereklidir  
-- Ağ kararlılığına bağımlıdır  
-- Gelişmiş güvenlik önlemleri eklenmemiştir  
-
----
-
-### 👤 Proje Sahibi
+## 👤 Proje Sahibi
 
 - **Hilmi Can Ürlü**
 
 ---
 
-### 📧 İletişim
+## 📧 İletişim
 
-Hilmi Can Ürlü  
 E-posta:  
 Web Sitesi:  
 

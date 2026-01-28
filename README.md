@@ -41,21 +41,6 @@ Real-time sensor monitoring and device control interface.
 
 ![Web Dashboard](assets/web-dashboard.png)
 
----
-
-### 🔹 Telegram Alert System
-Automatic Telegram notifications with critical alerts.
-
-![Telegram Alert](assets/telegram-alert.png)
-
----
-
-### 🔹 Hardware Setup
-ESP32 and sensor connections.
-
-![Hardware Setup](assets/hardware-setup.png)
-
----
 
 ## ⚙️ System Features
 
@@ -123,19 +108,6 @@ Gerçek zamanlı sensör verilerinin izlendiği dashboard.
 
 ---
 
-### 🔹 Telegram Uyarıları
-Kritik durumlarda otomatik gönderilen Telegram bildirimleri.
-
-![Telegram Uyarısı](assets/telegram-alert.png)
-
----
-
-### 🔹 Donanım Kurulumu
-ESP32 ve sensörlerin fiziksel bağlantıları.
-
-![Donanım Kurulumu](assets/hardware-setup.png)
-
----
 
 ## ⚙️ Sistem Özellikleri
 
